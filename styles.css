@@ -579,8 +579,8 @@ nav .footer-link {
     }
 
     header {
-        position: relative;
-        background-color: black;
+       
+        /* background-color: black; */
         display: flex;
     }
 
@@ -597,4 +597,53 @@ nav .footer-link {
     }
 }
 
+
+@media (max-width: 300px) {
+    
+    .namewrapper {
+        
+        font-size: 10px;
+    }
+    
+    
+    .fd {
+        font-size: 25px;
+        
+         
+      }
+
+      .capsj {
+          font-size: 50px;
+      }
+
+      .nav-link {
+        font-size: 7px;
+    }
+
+    #contact h1, #contact h3 {
+        font-size: 40px;
+    }
+
+    #projects {
+        height: 150vh;
+      
+       }
+
+       .foot {
+        font-size: 7px;
+    }
+
+    .nav-links li {
+        padding: 0 10px;
+       
+         
+     }
+
+     header {
+         position: relative;
+         background: black;
+     }
+
+      
+}
 

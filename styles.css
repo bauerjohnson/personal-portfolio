@@ -644,6 +644,10 @@ nav .footer-link {
          background: black;
      }
 
+     .footer-link {
+         padding-top: 100px;
+     }
+
       
 }
 
